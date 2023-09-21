@@ -1,11 +1,12 @@
-import * as React from 'react';
-//import React, { useState } from "react";
+//import * as React from 'react';
+import React, { useState } from "react";
 import Box from '@mui/material/Box'
 import TextField from '@mui/material/TextField';
 import Autocomplete, { createFilterOptions } from '@mui/material/Autocomplete';
 
 import { Provider, useSelector, useDispatch } from 'react-redux'
 import { changeSymbol } from '../store/actions/symbol.actions'
+
 
 
 const filterOptions = createFilterOptions({

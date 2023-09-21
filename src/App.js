@@ -11,7 +11,6 @@ import store from './store'
 
 function App() {
 
-  const dispatch = useDispatch()
   const currentSymbol = useSelector(state => state.currentSymbol)
 
   return (
@@ -29,7 +28,9 @@ function App() {
 
 <br /><br /><br /><br /><br /> */}
         <br /><br /><br /><br /><br /> 
-        <Autocomplete />
+      
+        <br /><br /><br /><br /><br /> 
+        <Autocomplete currentSymbol={currentSymbol}/>
 
 
         <StockProfile currentSymbol={currentSymbol} /> 
