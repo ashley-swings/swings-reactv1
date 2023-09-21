@@ -7,6 +7,17 @@
   pointer-events: none;
 }
 
+.MuiAutocomplete-root {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  background: white;
+  z-index: 99;
+  margin-top: 10px;
+}
+.stock-profile__title {
+  background: grey;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -26,6 +37,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.tradingViewContainer, .tradingview-widget-container {
+  height: 100%;
+}
+
+.row {
+  display: flex;
 }
 
 @keyframes App-logo-spin {
