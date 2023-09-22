@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/swings-reactv1/static/css/main.82e4fcb4.css",
+    "main.js": "/swings-reactv1/static/js/main.5c7edd47.js",
+    "static/js/787.28cb0dcd.chunk.js": "/swings-reactv1/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/swings-reactv1/index.html",
+    "main.82e4fcb4.css.map": "/swings-reactv1/static/css/main.82e4fcb4.css.map",
+    "main.5c7edd47.js.map": "/swings-reactv1/static/js/main.5c7edd47.js.map",
+    "787.28cb0dcd.chunk.js.map": "/swings-reactv1/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82e4fcb4.css",
+    "static/js/main.5c7edd47.js"
+  ]
+}
