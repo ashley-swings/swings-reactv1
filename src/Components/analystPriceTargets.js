@@ -14,7 +14,7 @@ const AnalystPriceTargets = () => {
   }, [currentSymbol]);
 
   return (
-    <div>analystPriceTargets current symbol - {currentSymbol}</div>
+    <div>analystPriceTargets current symbol testing deployment to github - {currentSymbol}</div>
   );
 }
 
