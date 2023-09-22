@@ -47,6 +47,7 @@ const InsiderTrading = () => {
               <th scope="col">Reporting Name</th>
               <th scope="col">Type of Owner</th>
               <th scope="col">Securities Transacted</th>
+              <th scope="col">price</th>
             </tr>
           </thead>
           <tbody>
@@ -58,12 +59,19 @@ const InsiderTrading = () => {
                 <td>
                   {transaction.transactionType}
                 </td>
-                <td>{transaction.acquistionOrDisposition === 'D' ? 'Sale' : 'Purchase'}</td>
+                <td>{transaction.acquistionOrDisposition === 'D' ? 'Sale' : 'Purchase'}
+                    <br />
+                    {transaction.acquistionOrDisposition === 'D' ? (<span style={{background:'red'}}>SALE</span>) : (<span style={{background:'green'}}>BUY</span>)}
+                    <br /><br />
+                </td>
                 <td>{transaction.securitiesOwned}</td>
                 <td>{transaction.reportingName}</td>
                 <td>{transaction.typeOfOwner}</td>
                 <td>
                   {transaction.securitiesTransacted}
+                </td>
+                <td>
+                  {transaction.price}
                 </td>
               </tr>
             ))}
