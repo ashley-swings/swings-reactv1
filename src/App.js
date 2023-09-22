@@ -6,6 +6,7 @@ import InsiderTrading from './Components/insiderTrading';
 import TradingView from './Components/tradingView'; 
 import StockProfile from './Components/stockProfile'; 
 import Autocomplete from './Components/autocomplete';
+import AnalystPriceTargets from './Components/analystPriceTargets';
 
 import store from './store'
 
@@ -32,7 +33,7 @@ function App() {
         <br /><br /><br /><br /><br /> 
         <Autocomplete currentSymbol={currentSymbol}/>
 
-
+        <AnalystPriceTargets />
         <StockProfile currentSymbol={currentSymbol} /> 
         <InsiderTrading currentSymbol={currentSymbol} /> 
         <div style={{height: '500px'}}>
